@@ -1,0 +1,102 @@
+:root{ /*define as configurações do site*/
+    --corfundo: rgb(14, 222, 230);
+    --larguramaxima:1000px;/*largura maxima*/
+    --larguraminima:250px;/*largura minima*/
+}
+
+*{
+    margin: 0;  /* o margin define as margens externas do elemento, nesse caso retira todas as margens da páginas */
+    padding: 0; /*O padding define as margens inertidas do elemento.*/
+}
+
+  body{
+    background-color: var(--corfundo);
+  } 
+
+  header, main, footer{
+max-width: var(--larguramaxima);
+min-width: var(--larguraminima);
+margin: auto;
+padding: 20px;
+  }
+  header{
+    position: relative;
+  }
+
+  #sociais{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 30px;
+    left: 870px;
+    top: 30px;
+  }
+
+  .social{
+    width: 30px;
+    width: 30px;
+    filter: invert(1) opacity(0.7);
+  }
+  .social:hover{
+    width: 30px;
+    height: 35px;
+  filter: invert(1) opacity(1);
+  
+  }
+
+  #capa{
+    height: 300px;
+    background-image: url(images/bg-urbano.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px; /*borda da foto  arredondada*/
+    border: solid 2px #fff;
+  }
+
+  #fotodeperfil{
+    width: 120px;
+    left: 20px;
+    top: 200px;
+    position: absolute;
+    border: solid 2px #fff;
+  }
+
+#capa h1{
+  color: white;
+}
+
+#capa p{
+  color: white;
+}
+
+/*-----------------BOTÔES DO MENU----------------------*/
+nav{
+ 
+ display: flex;
+ justify-content: center;
+}
+
+#menu{
+width: 200px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.menu{
+  text-decoration: none;
+  font-size: 1.3en;
+  padding: 4px 16px;
+  border-radius: 5px;
+}
+
+spam{
+  color: crimson;
+}
+

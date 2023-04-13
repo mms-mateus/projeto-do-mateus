@@ -1,0 +1,5 @@
+:root{ /*define as configurações do site*/
+    --corfundo: rgb(14, 222, 230);
+    --larguramaxima:1000px;/*largura maxima*/
+    --larguraminima:250px;/*largura minima*/
+}
