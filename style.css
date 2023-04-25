@@ -96,9 +96,22 @@ justify-content: space-between;
   border-radius: 5px;
 }
 
-spam{
+spam {
   color: crimson;
 }
 .colunas{
   column-count: 3;
+}
+.fav{
+  font-size: 1.5em;
+}
+
+#links {
+  width: 200px;
+  text-decoration: none;
+  padding: 5px 16px;
+  border-radius: 5px;
+}
+#links a{
+  
 }
