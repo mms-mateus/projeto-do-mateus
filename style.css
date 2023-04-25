@@ -120,3 +120,14 @@ spam {
   display: flex;
   flex-direction: column;
 }
+
+.ss{
+  display: flex;
+  flex-direction: column;
+}
+
+.sl{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
