@@ -29,7 +29,7 @@ padding: 20px;
     justify-content: space-between;
     position: absolute;
     right: 30px;
-    left: 850px;
+
     top: 30px;
   }
 
@@ -113,5 +113,10 @@ spam {
   border-radius: 5px;
 }
 #links a{
-  
+
+}
+
+.sf{
+  display: flex;
+  flex-direction: column;
 }
