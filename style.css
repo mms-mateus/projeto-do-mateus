@@ -130,12 +130,31 @@ spam {
   margin: 20px;
   border: 1px solid rgb(76, 0, 255);
   border-radius: 15px;
+ 
+}
 
+.f1 iframe{
+  width: 100%;
+  border-radius: 15px;
 }
 
 .ss{
+  width: 100%;
+  margin: auto;
+  display: block;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.s1{
+  width: 45%;
+  margin: 20px;
+  border: 1px solid rgb(76, 0, 255);
+  border-radius: 15px;
+}
+.s1 iframe{
+  width: 100%;
+  border-radius: 15px;
 }
 
 .sl{
@@ -143,7 +162,7 @@ spam {
   flex-wrap: wrap;
 width: 100%;
   margin: auto;
-
+ border-radius: 15px;
 justify-content: center;
 align-items: center;
 }
@@ -158,5 +177,21 @@ align-items: center;
  
 .l1 img{
   width: 100%;
+  border-radius: 15px;
 }
 
+
+
+main ul li{ /* Houver é um comportamento que muda */
+  list-style: none; 
+}
+
+main a :hover{
+  text-decoration: underline; /*quando o mause */
+  color: rgb(42, 165, 69);
+
+}
+
+.menu :hover{
+ color: brown; /* muda de cor quando o mause passa por cima*/
+}
